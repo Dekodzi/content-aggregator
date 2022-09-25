@@ -1,4 +1,4 @@
-# Content Aggregator
+# Simple coffee news aggregator
 
 This simple application lists some news from websites about coffee.
 
