@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+    <link href='{{ lato_font }}' rel='stylesheet' type='text/css'>
+    <link href='{{ dmsans_font }}' rel='stylesheet' type='text/css'>
+    <title>Coffee News</title>
+</head>
+<body>
+    <header>News fresh like a coffee</header>
+    <main>
+        <div class="content">
+            <h2>European Coffee Trip</h2>
+            <a href="{{links[0]}}">{{titles[0]}}<br></a>
+            <a href="{{links[1]}}">{{titles[1]}}<br></a>
+            <a href="{{links[2]}}">{{titles[2]}}<br></a>
+            <a href="{{links[3]}}">{{titles[3]}}</a>
+        </div>
+        <div class="content">
+            <h2>Coffee And Health</h2>
+            <a href="{{links[4]}}">{{titles[4]}}<br></a>
+            <a href="{{links[5]}}">{{titles[5]}}<br></a>
+            <a href="{{links[6]}}">{{titles[6]}}<br></a>
+            <a href="{{links[7]}}">{{titles[7]}}</a>
+        </div>
+        <div class="content">
+            <h2>Daily Coffee News</h2>
+            <a href="{{links[8]}}">{{titles[8]}}<br></a> 
+            <a href="{{links[9]}}">{{titles[9]}}<br></a>
+            <a href="{{links[10]}}">{{titles[10]}}<br></a>
+            <a href="{{links[11]}}">{{titles[11]}}</a>
+        </div>
+        <div class="content">
+            <h2>The Way To Coffee</h2>
+            <a href="{{links[12]}}">{{titles[12]}}<br></a>
+            <a href="{{links[13]}}">{{titles[13]}}<br></a>
+            <a href="{{links[14]}}">{{titles[14]}}<br></a>
+            <a href="{{links[15]}}">{{titles[15]}}</a>
+        </div>
+    </main>
+</body>
+</html>

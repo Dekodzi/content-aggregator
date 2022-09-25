@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Lato";
+    src: url("{{ url_for('fonts', filename='Lato-Regular.ttf') }}")
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("{{ url_for('fonts', filename='DMSans-Regular.ttf') }}");
+}
+
+body {
+    background: linear-gradient(252.44deg, #CCD4E1 0%, #D1F4FC 100%);
+}
+
+header {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 167px;
+    text-align: center;
+    color: #735425;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.content {
+    width: 500px;
+    height: 250px;
+    background-color: #D6BDA6;
+    border-radius: 46px;
+    margin: auto;
+    overflow: clip;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+.content a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    padding-left: 5%;
+    align-items: center;
+    color: #0066FF;
+    text-decoration: none;
+}
