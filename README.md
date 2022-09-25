@@ -4,10 +4,9 @@ This simple application lists some news from websites about coffee.
 
 ## Requirements
 
-1. Python 3.10.x
-2. Flask
-3. Beautifulsoup4
-4. Requests
+1. Flask
+2. Beautifulsoup4
+3. Requests
 
 ## Usage
 
