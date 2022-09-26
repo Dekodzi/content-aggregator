@@ -33,7 +33,7 @@ Open it with your web browser typing localhost:5000
 
 ## Purpose
 
-I made this application to learn basics of Flask and recall some HTML and CSS knowledge. It isn't beautiful or well written, but it works. In the future I plan to make it responsive and put it on some hosting line PythonAnywhere. For now it's just for learning purposes.
+I made this application to learn basics of Flask and recall some HTML and CSS knowledge. It isn't beautiful or well written, but it works.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
